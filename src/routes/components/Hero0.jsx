@@ -48,7 +48,7 @@ const Hero0 = () => {
                     />
                   </svg>
                   <p className="ml-4 font-base dark:text-gray-100 text-gray-600">
-                    I can build minimalist layout, quite clean and intuitive
+                    I can build minimalist layout, quite clean and intuitive.
                   </p>
                 </li>
                 <li className="flex items-center">
