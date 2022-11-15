@@ -9,15 +9,16 @@ const Hero0 = () => {
       >
         <div className="container mx-auto flex px-11 py-14  lg:py-2 lg:px-14 2xl:px-2 2xl:py-7  md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl dark:text-white text-4xl lg:text-3xl mb-5 lg:mb-4 font-medium text-gray-900">
+            <h1 className="title-font sm:text-4xl dark:text-white text-3xl lg:text-3xl mb-8 lg:mb-5 font-medium text-gray-900">
               About Me
               <br className="hidden lg:inline-block" />
             </h1>
 
             <span className="mb-8 text-normal dark:text-gray-200  text-start text-black  ">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk
+              I am a fairly reserved person, I like the challenges of each
+              project as a developer, as well as the experience that life
+              imposes on me, it makes me feel good to keep focus and drain my
+              energies creatively and productively.
               <ul className="space-y-7 lg:space-y-4">
                 <li className="flex items-center mt-7">
                   <svg
@@ -31,7 +32,7 @@ const Hero0 = () => {
                       fill="none"
                     />
                   </svg>
-                  <p className="ml-4 font-base dark:text-gray-100 text-gray-600">
+                  <p className="ml-4 font-base dark:text-gray-100 text-black  ">
                     I have solid foundations in javascript, React and CSS
                   </p>
                 </li>
@@ -47,7 +48,7 @@ const Hero0 = () => {
                       fill="none"
                     />
                   </svg>
-                  <p className="ml-4 font-base dark:text-gray-100 text-gray-600">
+                  <p className="ml-4 font-base dark:text-gray-100 text-black  ">
                     I can build minimalist layout, quite clean and intuitive.
                   </p>
                 </li>
@@ -63,7 +64,7 @@ const Hero0 = () => {
                       fill="none"
                     />
                   </svg>
-                  <p className="ml-4 font-base dark:text-gray-100 text-gray-600">
+                  <p className="ml-4 font-base dark:text-gray-100 text-black  ">
                     I always try to organize, optimize, simplify My code.
                   </p>
                 </li>
@@ -71,9 +72,11 @@ const Hero0 = () => {
             </span>
 
             <div className="flex justify-center mt-4 space-x-7  container lg:space-x-5 ">
-              <button
+              <a
                 type="button"
-                className=" px-2 py-2 border-2 flex border-indigo-500 text-gray-700 dark:text-gray-100  font-medium text-xs leading-tight uppercase rounded hover:bg-indigo-400  dark:hover:bg-indigo-600  focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                className=" px-2 py-2 border-2 flex border-indigo-500 text-gray-700 dark:text-gray-100  font-medium text-xs leading-tight uppercase rounded hover:bg-indigo-400  dark:hover:bg-indigo-600  focus:outline-none focus:ring-0 transition duration-150 ease-in-out "
+                href="./docu.pdf "
+                target="_blank"
               >
                 <svg
                   aria-hidden="true"
@@ -91,7 +94,7 @@ const Hero0 = () => {
                   ></path>
                 </svg>
                 Download CV
-              </button>
+              </a>
             </div>
           </div>
 

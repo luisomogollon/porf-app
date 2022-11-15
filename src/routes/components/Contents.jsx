@@ -1,5 +1,6 @@
 import React from "react";
 import imagenes from "../../assets/imagenes";
+import { MdOutlineAttachEmail } from "react-icons/md";
 const contents = () => {
   return (
     <div>
@@ -135,7 +136,7 @@ const contents = () => {
                   htmlFor="footer-field"
                   className="leading-7 font-bold text-sm dark:text-white text-gray-600"
                 >
-                  Email
+                   Email
                 </label>
                 <input
                   type="text"
@@ -145,7 +146,17 @@ const contents = () => {
                 />
               </div>
               <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                Button
+                 <svg
+                  fill="none"
+                  stroke="currentColor"
+                  strokelinecap-="round"
+                  trokelinejoin="round"
+                  strokeWidth="2"
+                  className="w-9 h-6 "
+                  viewBox="0 0 15 15"
+                >
+                  <MdOutlineAttachEmail/>
+                </svg>
               </button>
               <p className="text-gray-900 dark:text-gray-100 text-sm font-semibold md:ml-7 md:mt-0 mt-6 px-4 lg:px-0 lg:mt-2 sm:text-left text-center">
                 Contact Me

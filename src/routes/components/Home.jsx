@@ -15,7 +15,7 @@ const Home = () => {
         <div className="mx-auto max-w-7xl ">
           <div className="container py-28 lg:py-32 mx-auto text-center mt-16 sm:px-4">
             <h1 className="text-3xl font-extrabold  tracking-tight  text-white sm:text-5xl lg:tracking-normal  md:text-6xl xl:text-7xl">
-              <span className="block text-black dark:text-white ">
+              <span className="block text-black dark:text-indigo-100 ">
                 Luis Michinaux
               </span>{" "}
               <span className="relative text-transparent bg-clip-text inline-block mt-3 dark:text-blue-400 bg-gradient-to-br from-indigo-600 to-indigo-500 md:inline-block">
@@ -23,16 +23,16 @@ const Home = () => {
               </span>
             </h1>
 
-            <div className="max-w-lg mx-auto mt-6 text-sm text-center text-gray-700 md:mt-12 sm:text-base md:max-w-xl md:text-lg xl:text-sm ">
-              If you are ready to change the way you design websites, then
-              you'll want to use our block
+            <div className="max-w-lg mx-auto mt-6 text-sm text-center text-gray-700 md:mt-12 lg:text-lg ">
+              Frontend developer, focused on simplifying the creation of app
+              pages and passionate about interface design.
             </div>
 
             <Link
-             href="#_"
-                to="Contact"
-                smooth={true}
-                duration={1000}
+              href="#_"
+              to="Contact"
+              smooth={true}
+              duration={1000}
               type="button"
               className="text-white bg-indigo-600 hover:bg-indigo-800 focus:ring-4 mt-14 focus:outline-none focus:ring-blue-300 font-medium  rounded-full text-sm px-6 py-3   text-center inline-flex items-center dark:bg-blue-600 cursor-pointer dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
