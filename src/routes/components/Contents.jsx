@@ -1,6 +1,6 @@
 import React from "react";
 import imagenes from "../../assets/imagenes";
-import { MdOutlineAttachEmail } from "react-icons/md";
+import { RiMailAddLine } from "react-icons/ri";
 const contents = () => {
   return (
     <div>
@@ -30,17 +30,19 @@ const contents = () => {
                 />
               </div>
 
-              <h2   className="text-xl font-medium dark:text-white  title-font  text-gray-900 mt-5">
+              <h2 className="text-xl font-medium dark:text-white  title-font  text-gray-900 mt-5">
                 Art Shop Page
               </h2>
 
               <p className="text-base leading-relaxed mt-2 dark:text-gray-300">
-                Swag shoivdigoitch literally meditation subway tile tumblr
-                cold-pressed. Gastropub street art beard dreamcatcher neutra,
-                ethical XOXO lumbersexual.
+                This is a digital art store based app, nice layout built with
+                Tailwind Css and React Router, own design clean and simple.
               </p>
 
-              <a href="https://art-shop-page.netlify.app/" className="text-indigo-700 dark:text-indigo-500 inline-flex items-center mt-3 dark:hover:text-indigo-100  hover:text-indigo-500">
+              <a
+                href="https://art-shop-page.netlify.app/"
+                className="text-indigo-700 dark:text-indigo-500 inline-flex items-center mt-3 dark:hover:text-indigo-100  hover:text-indigo-500"
+              >
                 Live Demo
                 <svg
                   fill="none"
@@ -69,9 +71,8 @@ const contents = () => {
               </h2>
 
               <p className="text-base leading-relaxed mt-2  dark:text-gray-300 ">
-                Swag shoivdigoitch literally meditation subway tile tumblr
-                cold-pressed. Gastropub street art beard dreamcatcher neutra,
-                ethical XOXO lumbersexual.
+                It's a practice app to learn how to use react context along with
+                a little movie api, again a pretty nice and light design.
               </p>
 
               <a
@@ -106,12 +107,14 @@ const contents = () => {
               </h2>
 
               <p className="text-base leading-relaxed mt-2 dark:text-gray-300">
-                Swag shoivdigoitch literally meditation subway tile tumblr
-                cold-pressed. Gastropub street art beard dreamcatcher neutra,
-                ethical XOXO lumbersexual.
+                A practice app, to handle the functionalities of axios, in this
+                I use an api based on game of thrones, my favorite series.
               </p>
 
-              <a href="https://got-router-app.netlify.app/"  className="text-indigo-700 dark:text-indigo-500 inline-flex dark:hover:text-indigo-100  hover:text-indigo-500 items-center mt-3">
+              <a
+                href="https://got-router-app.netlify.app/"
+                className="text-indigo-700 dark:text-indigo-500 inline-flex dark:hover:text-indigo-100  hover:text-indigo-500 items-center mt-3"
+              >
                 Live Demo
                 <svg
                   fill="none"
@@ -128,7 +131,10 @@ const contents = () => {
             </div>
           </div>
         </div>
-        <div id="Contact" className="border-t border-gray-300 dark:bg-slate-700">
+        <div
+          id="Contact"
+          className="border-t border-gray-300 dark:bg-slate-700"
+        >
           <div className="container px-4  lg:px-8 py-9 flex flex-wrap  items-center">
             <div className="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
               <div className="relative sm:w-64 w-40 sm:mr-4 mr-2">
@@ -136,7 +142,7 @@ const contents = () => {
                   htmlFor="footer-field"
                   className="leading-7 font-bold text-sm dark:text-white text-gray-600"
                 >
-                   Email
+                  Email
                 </label>
                 <input
                   type="text"
@@ -146,16 +152,16 @@ const contents = () => {
                 />
               </div>
               <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                 <svg
+                <svg
                   fill="none"
                   stroke="currentColor"
                   strokelinecap-="round"
                   trokelinejoin="round"
                   strokeWidth="2"
                   className="w-9 h-6 "
-                  viewBox="0 0 15 15"
+                  viewBox="0 0 16 16"
                 >
-                  <MdOutlineAttachEmail/>
+                  <RiMailAddLine />
                 </svg>
               </button>
               <p className="text-gray-900 dark:text-gray-100 text-sm font-semibold md:ml-7 md:mt-0 mt-6 px-4 lg:px-0 lg:mt-2 sm:text-left text-center">
