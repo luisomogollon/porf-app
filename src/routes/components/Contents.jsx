@@ -133,7 +133,7 @@ const contents = () => {
         </div>
         <div
           id="Contact"
-          className="border-t border-gray-300 dark:bg-slate-700"
+          className="border-t border-gray-400 dark:bg-slate-700"
         >
           <div className="container px-4  lg:px-8 py-9 flex flex-wrap  items-center">
             <div className="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
