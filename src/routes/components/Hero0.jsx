@@ -9,7 +9,7 @@ const Hero0 = () => {
       >
         <div className="container mx-auto flex px-11 py-14  lg:py-2 lg:px-14 2xl:px-2 2xl:py-7  md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl dark:text-white text-3xl lg:text-3xl mb-8 lg:mb-5 font-medium text-gray-900">
+            <h1 className="title-font sm:text-4xl dark:text-white text-3xl lg:text-3xl mb-10 lg:mb-5 font-medium text-gray-900">
               About Me
               <br className="hidden lg:inline-block" />
             </h1>
