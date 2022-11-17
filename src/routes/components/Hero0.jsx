@@ -71,7 +71,7 @@ const Hero0 = () => {
               </ul>
             </span>
 
-            <div className="flex justify-center mt-4 space-x-7  container lg:space-x-5 ">
+            <div className="flex justify-center mt-4 xl:mt-6 space-x-7  container lg:space-x-5 ">
               <a
                 type="button"
                 className=" px-2 py-2 border-2 flex border-indigo-500 text-gray-700 dark:text-gray-100  font-medium text-xs leading-tight uppercase rounded hover:bg-indigo-400  dark:hover:bg-indigo-600  focus:outline-none focus:ring-0 transition duration-150 ease-in-out "
