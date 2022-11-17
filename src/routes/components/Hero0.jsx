@@ -100,7 +100,7 @@ const Hero0 = () => {
 
           <div className="lg:max-w-lg  lg:w-full md:w-1/2 w-6/6">
             <img
-              className="object-cover  bg-slate-200object-center rounded"
+              className="object-cover  bg-slate-200 object-center rounded"
               alt="hero"
               src={imagenes.img1}
             />
